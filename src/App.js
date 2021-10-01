@@ -2,6 +2,7 @@ import './App.css';
 import Form from './Form';
 import TodoList from './TodoList';
 import { useState, useEffect } from 'react'
+import Footer from './Footer';
 
 function App() {
 
@@ -71,6 +72,7 @@ function getlocal(){
 
         
       />
+      <Footer />
      
     </div>
   );

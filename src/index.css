@@ -163,7 +163,20 @@ input[type="text"]:focus{
   padding: 1rem;
   border: none;
 }
-
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: .6rem;
+}
+footer{
+  margin: 0;
+  padding: 0;
+  background-color: #ff6f47;
+   position: fixed;
+  width: 100vw;
+  bottom: 0;
+  height: 12px;
+}
 @media (max-width: 500px){
  
   form{
@@ -177,6 +190,10 @@ input[type="text"]:focus{
     font-size: 1rem;
     margin-left: 15px;
     width: 80vw;
+  }
+
+  header h1{
+    font-size: 15vw;
   }
 
   .todo, .todo-item{
