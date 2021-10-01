@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   font-family: poppins;
@@ -6,7 +9,7 @@ body {
   background-image: linear-gradient(120deg, #f6d365, #fda085);
   color: white;
 background-position: center;
-max-width: 100%;
+max-width: 100vw;
 min-height: 100vh;
 }
 p{text-align: center;}
@@ -167,7 +170,7 @@ input[type="text"]:focus{
   }
 
   .form-container{
-    width: 90vw
+    width: 80vw
   }
 
 
