@@ -172,9 +172,9 @@ footer{
   margin: 0;
   padding: 0;
   background-color: #ff6f47;
-   position: fixed;
+  margin-bottom: 0;
   width: 100vw;
-  bottom: 0;
+  border-bottom: 0;
   height: 12px;
 }
 @media (max-width: 500px){
