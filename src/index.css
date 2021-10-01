@@ -25,10 +25,13 @@ header h1{
 form input, form button{
   background: white;
   border: none;
-  font-size: 2rem;
+  font-size: 1rem;
   padding: .5rem;
 }
 
+input[type="text"]{
+  padding: 1rem 0;
+}
 
 form button{
   color: #f6d365;
@@ -163,6 +166,6 @@ input[type="text"]:focus{
   }
 
   form input{
-    width: 80vw
+    width: 90vw
   }
 }
