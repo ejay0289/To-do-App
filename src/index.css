@@ -162,17 +162,3 @@ input[type="text"]:focus{
   padding: 1rem;
   border: none;
 }
-
-@media (max-width: 500px){
-  form{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .form-container{
-    width: 90vw
-  }
-
-
-
-}
