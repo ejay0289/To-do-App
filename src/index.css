@@ -25,10 +25,9 @@ header h1{
   font-size: 7vw;
   margin: 0;
 }
-h1{margin: 0;}
-.form-container{
-  display: flex;
-}
+
+
+
 form input, form button{
   background: white;
   border: none;
@@ -90,13 +89,13 @@ input[type="text"]:focus{
   border: none;
   color: white;
   padding: 1rem;
+
 }
 .todo-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width:10rem;
-
+   min-width: 60vw;
 }
 
 .completed{
@@ -108,10 +107,9 @@ input[type="text"]:focus{
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
-  margin: .5rem;
+
   color: black;
   align-items: center;
-  min-width:10rem;
 
 
 }
