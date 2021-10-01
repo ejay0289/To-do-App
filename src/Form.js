@@ -26,6 +26,7 @@ const Form = ({ setstatus, todos, settodos,inputText, setinputText}) => {
 
 
            <button 
+           disabled={inputText<1}
            onClick={handleSubmit}
             type="submit"
              className="add-todo">
