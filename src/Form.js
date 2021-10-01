@@ -15,7 +15,9 @@ const Form = ({ setstatus, todos, settodos,inputText, setinputText}) => {
 
     return (
        <form onSubmit={(e) => e.preventDefault()} action="">
-
+        <div className="form-container">
+            
+        </div>
            <input  
            autoFocus 
            value={inputText}

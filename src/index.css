@@ -88,6 +88,8 @@ input[type="text"]:focus{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width:10rem;
+
 }
 
 .completed{
@@ -102,11 +104,16 @@ input[type="text"]:focus{
   margin: .5rem;
   color: black;
   align-items: center;
+  min-width:10rem;
+
 
 }
 
 .todo li{
   flex: 1;
+  min-width:10rem;
+
+
 
 
 }
@@ -119,6 +126,8 @@ input[type="text"]:focus{
 
 .todo-list{
   min-width: 30%;
+  min-width:10rem;
+
   list-style: none;
 }
 .todo-item{
@@ -131,6 +140,7 @@ input[type="text"]:focus{
   display: flex;
   align-items: center;
   word-wrap: break-word;
+
   
 
 }
@@ -144,4 +154,11 @@ input[type="text"]:focus{
   color: white;
   padding: 1rem;
   border: none;
+}
+
+@media (max-width: 500px){
+  form{
+    display: flex;
+    flex-direction: column;
+  }
 }
