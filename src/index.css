@@ -88,11 +88,27 @@ input[type="text"]:focus{
   text-decoration: line-through;
 
 }
+.todo{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: .5rem;
+  color: black;
+  align-items: center;
+
+}
+
+.todo li{
+  flex: 1;
+}
+
+.yeah{
+  white-space: nowrap;
+}
 
 .todo-list{
   min-width: 30%;
   list-style: none;
-  transition: all 1s ease;
 }
 .todo-item{
   padding-left: .5rem;

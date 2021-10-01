@@ -1,11 +1,7 @@
-import { useState } from "react"
 const Todo = ({text, todo, todos, settodos}) => {
 
-const [active, setactive] = useState(false)
 
-function toggle(){
-    setactive(!active)
-}
+
     function handleDelete(){
         settodos(todos.filter(el => el.id !== todo.id))
     }
@@ -25,12 +21,14 @@ function toggle(){
     
     return (
         <div className={`todo `}>
-            <li onAnimationEnd={handleDelete} className={`todo-item  ${todo.completed ? "completed": ''} ${active ? 'fall' : ''}  `}>
+            <li onAnimationEnd={handleDelete} className={`todo-item  ${todo.completed ? "completed": ''} `}>
                 {text}
-            <div>
-            <button onClick={handleComplete} className={` complete-btn `}><i className='fas fa-check'></i></button>
+           <div className='yeah'>
+           <button onClick={handleComplete} className={` complete-btn `}><i className='fas fa-check'></i></button>
                 <button type="button" onClick={handleDelete}  className='trash-btn'><i className='fas fa-trash'></i></button>
-            </div>
+           
+           </div>
+           
                
             </li>
         </div>
