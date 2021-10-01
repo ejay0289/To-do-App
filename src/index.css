@@ -23,7 +23,9 @@ header h1{
   margin: 0;
 }
 h1{margin: 0;}
-
+.form-container{
+  display: flex;
+}
 form input, form button{
   background: white;
   border: none;

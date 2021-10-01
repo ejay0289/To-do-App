@@ -18,7 +18,9 @@ const Form = ({ setstatus, todos, settodos,inputText, setinputText}) => {
         <div className="form-container">
             
         </div>
-           <input  
+
+        <div className="form-container">
+        <input  
            autoFocus 
            value={inputText}
            onChange={(e) => setinputText(e.target.value)} 
@@ -35,6 +37,8 @@ const Form = ({ setstatus, todos, settodos,inputText, setinputText}) => {
                  <i className="fa fa-plus-square" aria-hidden="true"></i>
              </button>
 
+        </div>
+      
             <div className="select">
                 <select onChange={handleStatus} name="todos" className="filter-todo">
                     <option value="all">All</option>
